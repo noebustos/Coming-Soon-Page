@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700");
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -55,7 +55,7 @@ table {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
   background: #f68f5f;
   background: linear-gradient(45deg, #f68f5f 0%, #ec3368 100%);
@@ -67,27 +67,70 @@ body {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.43); }
 
 #main-area {
-  max-width: 850px;
-  height: 70vh;
-  padding: 60px;
+  width: 800px;
+  height: 580px;
+  padding: 40px;
   border-radius: 0 230px 0 230px;
   -webkit-box-shadow: 0px 10px 70px 25px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 10px 70px 25px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.6)), to(rgba(50, 50, 50, 0.6))), url("../img/unsplash-rough-draft.jpg");
-  background: linear-gradient(rgba(50, 50, 50, 0.6), rgba(50, 50, 50, 0.6)), url("../img/unsplash-rough-draft.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.5)), to(rgba(50, 50, 50, 0.5))), url("../img/unsplash-rough-draft.jpg");
+  background: linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url("../img/unsplash-rough-draft.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #main-area .title h1 {
-    font-size: 3.4rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: .7rem; }
-  #main-area .title .underline-accent img {
-    width: 150px;
-    height: 10px; }
+  #main-area .title {
+    margin: 0 auto 51px; }
+    #main-area .title h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-style: italic;
+      margin-bottom: 9px;
+      margin-top: -5px; }
+      #main-area .title h1 span {
+        margin-left: 10px;
+        color: #feb332; }
+    #main-area .title .underline-accent {
+      margin-left: 4px; }
+      #main-area .title .underline-accent img {
+        width: 110px; }
+  #main-area .content {
+    margin: 0 auto;
+    text-align: center; }
+    #main-area .content .name-heading {
+      max-width: 380px;
+      margin: 0 auto 15px; }
+      #main-area .content .name-heading h3 {
+        font-size: 1.75rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 14px; }
+      #main-area .content .name-heading h5 {
+        font-size: 1.42rem;
+        font-weight: 300;
+        text-transform: capitalize; }
+    #main-area .content p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin: 0 auto 51px;
+      max-width: 380px;
+      line-height: 1.9;
+      letter-spacing: 1px; }
+    #main-area .content .acounts-area {
+      text-align: center; }
+      #main-area .content .acounts-area h6 {
+        font-size: .9rem;
+        font-weight: 600;
+        letter-spacing: 6px;
+        margin-bottom: 14px; }
+      #main-area .content .acounts-area .icon {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px; }
+        #main-area .content .acounts-area .icon .fab {
+          font-size: 30px; }

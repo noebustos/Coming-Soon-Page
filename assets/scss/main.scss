@@ -1,22 +1,32 @@
 @import "reset";
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700,800');
+// @import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+
+$text-shadow: 0px 0px 10px rgba(0,0,0,0.43);
+$orange: #f68f5f;
+$red-pink: #ec3368;
+$yellow: #feb332;
+
 *{
   box-sizing: border-box;
 }
 body{
-  font-family: 'Poppins', sans-serif;
+  // font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
   background: rgb(246,143,95);
   background: linear-gradient(45deg, rgba(246,143,95,1) 0%, rgba(236,51,104,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: $text-shadow;
+  // text-align: center;
 }
 
 #main-area{
-  max-width: 850px;
-  height: 70vh;
-  padding: 60px;
+  width: 800px;
+  height: 580px;
+  padding: 40px;
   border-radius: 0 230px 0 230px;
   box-shadow: 0px 10px 70px 25px rgba(0,0,0,0.2);
   overflow: hidden;
@@ -27,34 +37,99 @@ body{
   // align-items: center;
   // align-content: center;
   background: linear-gradient(
-    rgba(50, 50, 50, .6), 
-    rgba(50, 50, 50, .6)
+    rgba(50, 50, 50, .5), 
+    rgba(50, 50, 50, .5)
   ), url("../img/unsplash-rough-draft.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 
   .title{
+    // margin-bottom: 51px;
+    margin: 0 auto 51px;
+    // text-align: center;
+    // max-width: 380px;
+
     h1{
-      font-size: 3.4rem;
+      font-size: 4rem;
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: 700;
       font-style: italic;
-      margin-bottom: .7rem;
+      margin-bottom: 9px;
+      margin-top: -5px;
+
+      span{
+        margin-left: 10px;
+        // display: block;
+        color: $yellow;
+      }
     }
     
     .underline-accent{
       // position: relative;
       // left: -63px;
-    
+      margin-left: 4px;
+      
       img{
-        width: 150px;
-        height: 10px;
+        width: 110px;
+        // height: 10px;
+        // margin-left: -23px;
       }
     }
   }
- 
-  h1{
+  
+  .content{
+    margin: 0 auto;
+    // max-width: 500px;
+    text-align: center;
 
+    .name-heading{
+      max-width: 380px;
+      // margin-bottom: 20px;
+      margin: 0 auto 15px;
+      h3{
+        font-size: 1.75rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+
+        span{
+          // font-weight: 300;
+          // color: $yellow;
+        }
+      }
+      h5{
+        font-size: 1.42rem;
+        font-weight: 300;
+        text-transform: capitalize;
+      }
+    }
+    p{
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin: 0 auto 51px;
+      max-width: 380px;
+      line-height: 1.9;
+      letter-spacing: 1px;
+    }
+    .acounts-area{
+      text-align: center; 
+
+      h6{
+        font-size: .9rem;
+        font-weight: 600;
+        letter-spacing: 6px;
+        margin-bottom: 14px;
+      }
+      .icon{
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px;
+
+        .fab{
+          font-size: 30px;
+        }
+      }
+    }
   }
 }
