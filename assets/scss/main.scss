@@ -16,26 +16,49 @@ body{
   color: #fff;
   background: rgb(246,143,95);
   background: linear-gradient(45deg, rgba(246,143,95,1) 0%, rgba(236,51,104,1) 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   text-shadow: $text-shadow;
   // text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vh;
 }
 
+.container{
+  // height: 100vh;
+  // width: 100vh;
+  // overflow: hidden;
+
+  .accent-img{
+    z-index: 5;
+    position: absolute;
+    // top: -79px;
+    // bottom: -84px;
+    bottom: -33px;
+    left: 49%;
+    transform: rotate(15deg) scaleY(-1);
+    // rotate(-35deg)
+    img{
+      filter: drop-shadow( 0px 0px 50px rgba(0,0,0,.8));      width: 850px;
+      height: 500px;
+    }
+  }
+}
 #main-area{
+  // display: none;
   width: 800px;
   height: 550px;
   padding: 45px;
   border-radius: 0 230px 0 230px;
-  box-shadow: 0px 10px 70px 25px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 70px 25px rgba(0,0,0,0.2);
   overflow: hidden;
-  // display: flex;
-  // flex-direction:  column;
-  // flex-wrap: nowrap;
-  // justify-content: center;
-  // align-items: center;
-  // align-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
   background: linear-gradient(
     rgba(50, 50, 50, .5), 
     rgba(50, 50, 50, .5)
@@ -142,15 +165,5 @@ body{
         }
       }
     }
-  }
-}
-
-.code-svg{
-  img{
-    position :absolute;
-    z-index: 1;
-    bottom: 80px;
-    transform: rotate(-20deg) translate(-200px, 0);
-    width: 700px;
   }
 }
