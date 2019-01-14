@@ -72,8 +72,8 @@ body {
 
 #main-area {
   width: 800px;
-  height: 580px;
-  padding: 40px;
+  height: 550px;
+  padding: 45px;
   border-radius: 0 230px 0 230px;
   -webkit-box-shadow: 0px 10px 70px 25px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 10px 70px 25px rgba(0, 0, 0, 0.2);
@@ -84,21 +84,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
   #main-area .title {
-    margin: 0 auto 51px; }
+    margin: 0 auto 58px; }
     #main-area .title h1 {
       font-size: 4rem;
       text-transform: uppercase;
       font-weight: 700;
       font-style: italic;
       margin-bottom: 9px;
-      margin-top: -5px; }
+      margin-top: -3px; }
       #main-area .title h1 span {
         margin-left: 10px;
         color: #feb332; }
     #main-area .title .underline-accent {
-      margin-left: 4px; }
+      margin-left: 7px; }
       #main-area .title .underline-accent img {
-        width: 110px; }
+        width: 100px; }
   #main-area .content {
     margin: 0 auto;
     text-align: center; }
@@ -109,7 +109,7 @@ body {
         font-size: 1.75rem;
         font-weight: 400;
         text-transform: uppercase;
-        margin-bottom: 14px; }
+        margin-bottom: 12px; }
       #main-area .content .name-heading h5 {
         font-size: 1.42rem;
         font-weight: 300;
@@ -117,20 +117,35 @@ body {
     #main-area .content p {
       font-size: 1.2rem;
       font-weight: 300;
-      margin: 0 auto 51px;
+      margin: 0 auto 36px;
       max-width: 380px;
-      line-height: 1.9;
+      line-height: 1.8;
       letter-spacing: 1px; }
     #main-area .content .acounts-area {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 1rem; }
+      #main-area .content .acounts-area .underline-accent {
+        margin-bottom: 17px; }
+        #main-area .content .acounts-area .underline-accent img {
+          width: 100px; }
       #main-area .content .acounts-area h6 {
-        font-size: .9rem;
-        font-weight: 600;
+        font-size: .85rem;
+        font-weight: 500;
         letter-spacing: 6px;
-        margin-bottom: 14px; }
+        margin-bottom: 14px;
+        text-transform: uppercase; }
       #main-area .content .acounts-area .icon {
         display: inline-block;
         margin: 0 20px;
         padding: 5px; }
         #main-area .content .acounts-area .icon .fab {
-          font-size: 30px; }
+          font-size: 30px;
+          color: #feb332; }
+
+.code-svg img {
+  position: absolute;
+  z-index: 1;
+  bottom: 80px;
+  -webkit-transform: rotate(-20deg) translate(-200px, 0);
+  transform: rotate(-20deg) translate(-200px, 0);
+  width: 700px; }

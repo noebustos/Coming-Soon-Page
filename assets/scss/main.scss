@@ -25,8 +25,8 @@ body{
 
 #main-area{
   width: 800px;
-  height: 580px;
-  padding: 40px;
+  height: 550px;
+  padding: 45px;
   border-radius: 0 230px 0 230px;
   box-shadow: 0px 10px 70px 25px rgba(0,0,0,0.2);
   overflow: hidden;
@@ -46,7 +46,7 @@ body{
 
   .title{
     // margin-bottom: 51px;
-    margin: 0 auto 51px;
+    margin: 0 auto 58px;
     // text-align: center;
     // max-width: 380px;
 
@@ -56,7 +56,7 @@ body{
       font-weight: 700;
       font-style: italic;
       margin-bottom: 9px;
-      margin-top: -5px;
+      margin-top: -3px;
 
       span{
         margin-left: 10px;
@@ -68,10 +68,10 @@ body{
     .underline-accent{
       // position: relative;
       // left: -63px;
-      margin-left: 4px;
+      margin-left: 7px;
       
       img{
-        width: 110px;
+        width: 100px;
         // height: 10px;
         // margin-left: -23px;
       }
@@ -91,7 +91,7 @@ body{
         font-size: 1.75rem;
         font-weight: 400;
         text-transform: uppercase;
-        margin-bottom: 14px;
+        margin-bottom: 12px;
 
         span{
           // font-weight: 300;
@@ -107,20 +107,30 @@ body{
     p{
       font-size: 1.2rem;
       font-weight: 300;
-      margin: 0 auto 51px;
+      margin: 0 auto 36px;
       max-width: 380px;
-      line-height: 1.9;
+      line-height: 1.8;
       letter-spacing: 1px;
     }
     .acounts-area{
       text-align: center; 
+      margin-bottom: 1rem;
+
+      .underline-accent{
+        margin-bottom: 17px;
+        img{
+          width: 100px;
+        }
+      }
 
       h6{
-        font-size: .9rem;
-        font-weight: 600;
+        font-size: .85rem;
+        font-weight: 500;
         letter-spacing: 6px;
         margin-bottom: 14px;
+        text-transform: uppercase;
       }
+
       .icon{
         display: inline-block;
         margin: 0 20px;
@@ -128,8 +138,19 @@ body{
 
         .fab{
           font-size: 30px;
+          color: $yellow;
         }
       }
     }
+  }
+}
+
+.code-svg{
+  img{
+    position :absolute;
+    z-index: 1;
+    bottom: 80px;
+    transform: rotate(-20deg) translate(-200px, 0);
+    width: 700px;
   }
 }
