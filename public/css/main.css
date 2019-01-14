@@ -97,7 +97,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
   #main-area .title {
-    margin: 0 auto 58px; }
+    margin: 0 auto 60px; }
     #main-area .title h1 {
       font-size: 4rem;
       text-transform: uppercase;
@@ -130,7 +130,7 @@ body {
     #main-area .content p {
       font-size: 1.2rem;
       font-weight: 300;
-      margin: 0 auto 36px;
+      margin: 0 auto 22px;
       max-width: 380px;
       line-height: 1.8;
       letter-spacing: 1px; }
@@ -138,14 +138,14 @@ body {
       text-align: center;
       margin-bottom: 1rem; }
       #main-area .content .acounts-area .underline-accent {
-        margin-bottom: 17px; }
+        margin-bottom: 22px; }
         #main-area .content .acounts-area .underline-accent img {
           width: 100px; }
       #main-area .content .acounts-area h6 {
         font-size: .85rem;
         font-weight: 500;
         letter-spacing: 6px;
-        margin-bottom: 14px;
+        margin-bottom: 20px;
         text-transform: uppercase; }
       #main-area .content .acounts-area .icon {
         display: inline-block;
@@ -153,4 +153,6 @@ body {
         padding: 5px; }
         #main-area .content .acounts-area .icon .fab {
           font-size: 30px;
-          color: #feb332; }
+          color: #fff; }
+          #main-area .content .acounts-area .icon .fab:hover {
+            color: #feb332; }
