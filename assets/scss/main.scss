@@ -37,13 +37,15 @@ body{
     position: absolute;
     // top: -79px;
     // bottom: -84px;
-    bottom: -33px;
-    left: 49%;
-    transform: rotate(15deg) scaleY(-1);
+    bottom: -34px;
+    // bottom: 0;
+    right: 17.5%;
+    transform: rotate(18deg) scaleY(-1);
     // rotate(-35deg)
     img{
-      filter: drop-shadow( 0px 0px 50px rgba(0,0,0,.8));      width: 850px;
-      height: 500px;
+      filter: drop-shadow( 0px 0px 50px rgba(0,0,0,.8)); 
+      width: 140px;
+      // height: 500px;
     }
   }
 }
@@ -124,17 +126,18 @@ body{
       }
       h5{
         font-size: 1.42rem;
+        letter-spacing: 2px;
         font-weight: 300;
         text-transform: capitalize;
       }
     }
     p{
-      font-size: 1.2rem;
+      font-size: 1.18rem;
       font-weight: 300;
       margin: 0 auto 22px;
       max-width: 380px;
       line-height: 1.8;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
     }
     .acounts-area{
       text-align: center; 
@@ -159,6 +162,8 @@ body{
         display: inline-block;
         margin: 0 20px;
         padding: 5px;
+        position: relative;
+        z-index: 10;
         
         // &.active{
         //   color: $yellow !important;
@@ -168,10 +173,11 @@ body{
         .fab{
           font-size: 30px;
           color: #fff;
+          transition: all .2s ease-in-out;
 
           &:hover{
-            color: $yellow;
-            // box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);       
+            color: $yellow !important;
+            // font-size: 35px;
           }
         }
       }
