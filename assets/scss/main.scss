@@ -43,7 +43,7 @@ body{
     transform: rotate(18deg) scaleY(-1);
     // rotate(-35deg)
     img{
-      filter: drop-shadow( 0px 0px 50px rgba(0,0,0,.8)); 
+      filter: drop-shadow( 0px 0px 50px rgba(0,0,0,.6)); 
       width: 130px;
       // height: 500px;
     }
@@ -65,7 +65,8 @@ body{
   background: linear-gradient(
     rgba(50, 50, 50, .5), 
     rgba(50, 50, 50, .5)
-  ), url("../img/unsplash-rough-draft.jpg");
+  ), url("https://i.postimg.cc/4xGGMCqf/unsplash-rough-draft.jpg
+  ");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
