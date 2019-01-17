@@ -120,7 +120,7 @@ body {
       margin: 0 auto 15px; }
       #main-area .content .name-heading h3 {
         font-size: 1.75rem;
-        font-weight: 400;
+        font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 12px; }
         #main-area .content .name-heading h3 span {
@@ -129,7 +129,7 @@ body {
       #main-area .content .name-heading h5 {
         font-size: 1.42rem;
         letter-spacing: 2px;
-        font-weight: 300;
+        font-weight: 400;
         text-transform: capitalize; }
     #main-area .content p {
       font-size: 1.18rem;
