@@ -59,7 +59,7 @@ body {
   color: #fff;
   background: #f68f5f;
   background: linear-gradient(45deg, #f68f5f 0%, #ec3368 100%);
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.43);
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.43);
   overflow: hidden;
   height: 100vh;
   width: 100vh; }
@@ -98,20 +98,19 @@ body {
   #main-area .main-area-title {
     margin: 0 auto 62px; }
     #main-area .main-area-title h1 {
-      font-size: 4rem;
+      font-size: 3.9rem;
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: 700;
       font-style: italic;
-      margin-bottom: 11px;
+      margin-bottom: 13px;
       margin-top: -3px; }
       #main-area .main-area-title h1 span {
         margin-left: 10px;
-        font-weight: 700;
         color: #feb332; }
     #main-area .main-area-title .underline-accent {
       margin-left: 5px; }
       #main-area .main-area-title .underline-accent img {
-        width: 99px; }
+        width: 90px; }
   #main-area .main-area-content {
     margin: 0 auto;
     text-align: center; }
@@ -119,17 +118,19 @@ body {
       max-width: 380px;
       margin: 0 auto 15px; }
       #main-area .main-area-content .name-heading h3 {
-        font-size: 1.75rem;
+        letter-spacing: .5px;
+        font-size: 1.7rem;
         font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 12px; }
         #main-area .main-area-content .name-heading h3 span {
+          color: #feb332;
           font-style: italic;
-          margin: 0 8px 0 0px; }
+          margin: 0 6px 0 -3.5px; }
       #main-area .main-area-content .name-heading h5 {
-        font-size: 1.42rem;
-        letter-spacing: 2px;
-        font-weight: 400;
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+        font-weight: 300;
         text-transform: capitalize; }
     #main-area .main-area-content p {
       font-size: 1.18rem;
@@ -137,7 +138,8 @@ body {
       margin: 0 auto 22px;
       max-width: 380px;
       line-height: 1.8;
-      letter-spacing: 1.5px; }
+      letter-spacing: 1.5px;
+      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); }
     #main-area .main-area-content .acounts-area {
       text-align: center;
       margin-bottom: 1rem; }
