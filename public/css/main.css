@@ -95,72 +95,72 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #main-area .title {
+  #main-area .main-area-title {
     margin: 0 auto 62px; }
-    #main-area .title h1 {
+    #main-area .main-area-title h1 {
       font-size: 4rem;
       text-transform: uppercase;
       font-weight: 400;
       font-style: italic;
       margin-bottom: 11px;
       margin-top: -3px; }
-      #main-area .title h1 span {
+      #main-area .main-area-title h1 span {
         margin-left: 10px;
         font-weight: 700;
         color: #feb332; }
-    #main-area .title .underline-accent {
+    #main-area .main-area-title .underline-accent {
       margin-left: 5px; }
-      #main-area .title .underline-accent img {
+      #main-area .main-area-title .underline-accent img {
         width: 99px; }
-  #main-area .content {
+  #main-area .main-area-content {
     margin: 0 auto;
     text-align: center; }
-    #main-area .content .name-heading {
+    #main-area .main-area-content .name-heading {
       max-width: 380px;
       margin: 0 auto 15px; }
-      #main-area .content .name-heading h3 {
+      #main-area .main-area-content .name-heading h3 {
         font-size: 1.75rem;
         font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 12px; }
-        #main-area .content .name-heading h3 span {
+        #main-area .main-area-content .name-heading h3 span {
           font-style: italic;
           margin: 0 8px 0 0px; }
-      #main-area .content .name-heading h5 {
+      #main-area .main-area-content .name-heading h5 {
         font-size: 1.42rem;
         letter-spacing: 2px;
         font-weight: 400;
         text-transform: capitalize; }
-    #main-area .content p {
+    #main-area .main-area-content p {
       font-size: 1.18rem;
       font-weight: 300;
       margin: 0 auto 22px;
       max-width: 380px;
       line-height: 1.8;
       letter-spacing: 1.5px; }
-    #main-area .content .acounts-area {
+    #main-area .main-area-content .acounts-area {
       text-align: center;
       margin-bottom: 1rem; }
-      #main-area .content .acounts-area .underline-accent {
+      #main-area .main-area-content .acounts-area .underline-accent {
         margin-bottom: 24px; }
-        #main-area .content .acounts-area .underline-accent img {
+        #main-area .main-area-content .acounts-area .underline-accent img {
           width: 90px; }
-      #main-area .content .acounts-area h6 {
+      #main-area .main-area-content .acounts-area h6 {
         font-size: .87rem;
         font-weight: 500;
         letter-spacing: 6px;
         margin-bottom: 20px;
         text-transform: uppercase; }
-      #main-area .content .acounts-area .icon {
+      #main-area .main-area-content .acounts-area .icon {
         display: inline-block;
         margin: 0 20px;
         padding: 5px;
         position: relative;
         z-index: 10; }
-        #main-area .content .acounts-area .icon .fab {
+        #main-area .main-area-content .acounts-area .icon .fab {
           font-size: 30px;
           color: #fff;
           -webkit-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out; }
-          #main-area .content .acounts-area .icon .fab:hover {
+          #main-area .main-area-content .acounts-area .icon .fab:hover {
             color: #feb332 !important; }
