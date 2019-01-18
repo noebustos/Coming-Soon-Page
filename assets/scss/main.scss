@@ -23,12 +23,12 @@ body{
 }
 
 .container{
-  
+
   .accent-img{
     z-index: 5;
     position: absolute;
     bottom: -34px;
-    right: 17.5%;
+    right: 250px;
     transform: rotate(18deg) scaleY(-1);
 
     img{
@@ -164,3 +164,6 @@ body{
     }
   }
 }
+
+
+
