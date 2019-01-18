@@ -95,26 +95,22 @@ body{
         letter-spacing: .5px;
         font-size: 1.7rem;
         font-weight: 500;
-        // font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 12px;
 
         span{
-          color: $yellow;
           font-style: italic;
           margin: 0 6px 0 -3.5px;
-          // margin: 0 3px 0;
         }
       }
       h5{
-        font-size: 1.4rem;
+        font-size: 1.35rem;
         letter-spacing: 3px;
-        // font-weight: 400;
-        font-weight: 300;
-
-        text-transform: capitalize;
+        font-weight: 400;
+        text-transform: capitalize;        
       }
     }
+
     p{
       font-size: 1.18rem;
       font-weight: 300;
@@ -123,14 +119,15 @@ body{
       line-height: 1.8;
       letter-spacing: 1.5px;
       text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
-
     }
+
     .acounts-area{
       text-align: center; 
       margin-bottom: 1rem;
 
       .underline-accent{
         margin-bottom: 24px;
+
         img{
           width: 90px;
         }
@@ -139,9 +136,10 @@ body{
       h6{
         font-size: .87rem;
         font-weight: 500;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
         margin-bottom: 20px;
         text-transform: uppercase;
+        transform: scaleX(1.1);
       }
 
       .icon{
@@ -151,11 +149,6 @@ body{
         position: relative;
         z-index: 10;
         
-        // &.active{
-        //   color: $yellow !important;
-        //   box-shadow: 0px 0px 40px 10px rgba(51,51,51,.3);
-        // }
-
         .fab{
           font-size: 30px;
           color: #fff;
@@ -163,7 +156,7 @@ body{
 
           &:hover{
             color: $yellow !important;
-            // font-size: 35px;
+            filter: drop-shadow( 0px 0px 15px rgba(0,0,0,.5)); 
           }
         }
       }

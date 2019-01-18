@@ -124,13 +124,12 @@ body {
         text-transform: uppercase;
         margin-bottom: 12px; }
         #main-area .main-area-content .name-heading h3 span {
-          color: #feb332;
           font-style: italic;
           margin: 0 6px 0 -3.5px; }
       #main-area .main-area-content .name-heading h5 {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
         letter-spacing: 3px;
-        font-weight: 300;
+        font-weight: 400;
         text-transform: capitalize; }
     #main-area .main-area-content p {
       font-size: 1.18rem;
@@ -150,9 +149,11 @@ body {
       #main-area .main-area-content .acounts-area h6 {
         font-size: .87rem;
         font-weight: 500;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
         margin-bottom: 20px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        -webkit-transform: scaleX(1.1);
+        transform: scaleX(1.1); }
       #main-area .main-area-content .acounts-area .icon {
         display: inline-block;
         margin: 0 20px;
@@ -165,4 +166,6 @@ body {
           -webkit-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out; }
           #main-area .main-area-content .acounts-area .icon .fab:hover {
-            color: #feb332 !important; }
+            color: #feb332 !important;
+            -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5)); }
