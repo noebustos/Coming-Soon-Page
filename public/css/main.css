@@ -279,7 +279,7 @@ table {
           font-size: 28px !important; } }
 
 /* Phones- small */
-@media only screen and (max-width: 569px) {
+@media only screen and (min-width: 500px) and (max-width: 569px) {
   .accent-img {
     display: none; }
   body #main-area {
@@ -336,6 +336,227 @@ table {
         z-index: 10; }
         body #main-area .main-area-content .acounts-area .icon .fab {
           font-size: 28px !important; } }
+
+/* Phones- small */
+@media only screen and (min-width: 420px) and (max-width: 499px) {
+  .accent-img {
+    display: none; }
+  body #main-area {
+    width: 385px;
+    height: 400px;
+    padding: 21px;
+    border-radius: 80px 0 80px 0; }
+    body #main-area .main-area-title {
+      margin-bottom: 48px;
+      margin-right: 5px;
+      text-align: right; }
+      body #main-area .main-area-title h1 {
+        font-size: 2.5rem !important;
+        margin-top: -4px !important;
+        margin-bottom: 5px; }
+      body #main-area .main-area-title .underline-accent {
+        width: 200px;
+        margin-right: auto; }
+        body #main-area .main-area-title .underline-accent img {
+          margin-right: 17px;
+          width: 60px; }
+    body #main-area .main-area-content .name-heading {
+      max-width: 380px;
+      margin: 0 auto 18px !important; }
+      body #main-area .main-area-content .name-heading h3 {
+        letter-spacing: .5px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 12px; }
+        body #main-area .main-area-content .name-heading h3 span {
+          margin: 0 5px 0 -2.5px; }
+      body #main-area .main-area-content .name-heading h5 {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: capitalize; }
+    body #main-area .main-area-content p {
+      font-size: 1rem;
+      margin: 0 auto !important; }
+    body #main-area .main-area-content .acounts-area {
+      text-align: center;
+      margin-bottom: 0 !important;
+      margin-top: 12px; }
+      body #main-area .main-area-content .acounts-area .underline-accent {
+        margin-bottom: 22px; }
+        body #main-area .main-area-content .acounts-area .underline-accent img {
+          width: 55px; }
+      body #main-area .main-area-content .acounts-area h6 {
+        font-size: .7rem;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        -webkit-transform: scaleX(1.1);
+        transform: scaleX(1.1); }
+      body #main-area .main-area-content .acounts-area .icon {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px;
+        position: relative;
+        z-index: 10; }
+        body #main-area .main-area-content .acounts-area .icon .fab {
+          font-size: 25px !important; } }
+
+/* Phones- small */
+@media only screen and (max-width: 411px) {
+  .container {
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    border-radius: 0; }
+  .accent-img {
+    display: none; }
+  body #main-area {
+    width: 100%;
+    height: 50%;
+    padding: 22px;
+    border-radius: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible; }
+    body #main-area .main-area-title {
+      margin-bottom: 50px;
+      margin-right: 5px;
+      text-align: center; }
+      body #main-area .main-area-title h1 {
+        font-size: 2.5rem !important;
+        margin-top: -4px !important;
+        margin-bottom: 7px; }
+      body #main-area .main-area-title .underline-accent {
+        margin: 0 auto; }
+        body #main-area .main-area-title .underline-accent img {
+          width: 60px; }
+    body #main-area .main-area-content .name-heading {
+      max-width: 380px;
+      margin: 0 auto 18px !important; }
+      body #main-area .main-area-content .name-heading h3 {
+        letter-spacing: .5px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 12px; }
+        body #main-area .main-area-content .name-heading h3 span {
+          margin: 0 5px 0 -2.5px; }
+      body #main-area .main-area-content .name-heading h5 {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: capitalize; }
+    body #main-area .main-area-content p {
+      font-size: 1rem;
+      margin: 0 auto !important; }
+    body #main-area .main-area-content .acounts-area {
+      text-align: center;
+      margin-bottom: 0 !important;
+      margin-top: 12px; }
+      body #main-area .main-area-content .acounts-area .underline-accent {
+        margin-bottom: 22px; }
+        body #main-area .main-area-content .acounts-area .underline-accent img {
+          width: 55px; }
+      body #main-area .main-area-content .acounts-area h6 {
+        font-size: .7rem;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        -webkit-transform: scaleX(1.1);
+        transform: scaleX(1.1); }
+      body #main-area .main-area-content .acounts-area .icon {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px;
+        position: relative;
+        z-index: 10; }
+        body #main-area .main-area-content .acounts-area .icon .fab {
+          font-size: 25px !important; } }
+
+/* Phones- small */
+@media only screen and (min-width: 412px) and (max-width: 419px) {
+  .container {
+    overflow: visible;
+    width: 80%;
+    height: 435px;
+    -webkit-box-shadow: 0px 0px 70px 25px rgba(50, 50, 50, 0.05);
+    box-shadow: 0px 0px 70px 25px rgba(50, 50, 50, 0.05);
+    border-radius: 0 90px 0 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .accent-img {
+    display: none; }
+  body #main-area {
+    width: 100%;
+    height: 400px;
+    padding: 22px;
+    border-radius: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible; }
+    body #main-area .main-area-title {
+      margin-bottom: 50px;
+      margin-right: 5px;
+      text-align: center; }
+      body #main-area .main-area-title h1 {
+        font-size: 2.5rem !important;
+        margin-top: -4px !important;
+        margin-bottom: 7px; }
+      body #main-area .main-area-title .underline-accent {
+        margin: 0 auto; }
+        body #main-area .main-area-title .underline-accent img {
+          width: 60px; }
+    body #main-area .main-area-content .name-heading {
+      max-width: 380px;
+      margin: 0 auto 18px !important; }
+      body #main-area .main-area-content .name-heading h3 {
+        letter-spacing: .5px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 12px; }
+        body #main-area .main-area-content .name-heading h3 span {
+          margin: 0 5px 0 -2.5px; }
+      body #main-area .main-area-content .name-heading h5 {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: capitalize; }
+    body #main-area .main-area-content p {
+      font-size: 1rem;
+      margin: 0 auto !important; }
+    body #main-area .main-area-content .acounts-area {
+      text-align: center;
+      margin-bottom: 0 !important;
+      margin-top: 12px; }
+      body #main-area .main-area-content .acounts-area .underline-accent {
+        margin-bottom: 22px; }
+        body #main-area .main-area-content .acounts-area .underline-accent img {
+          width: 55px; }
+      body #main-area .main-area-content .acounts-area h6 {
+        font-size: .7rem;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        -webkit-transform: scaleX(1.1);
+        transform: scaleX(1.1); }
+      body #main-area .main-area-content .acounts-area .icon {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px;
+        position: relative;
+        z-index: 10; }
+        body #main-area .main-area-content .acounts-area .icon .fab {
+          font-size: 25px !important; } }
 
 * {
   -webkit-box-sizing: border-box;
@@ -444,6 +665,8 @@ body {
         text-transform: uppercase;
         -webkit-transform: scaleX(1.1);
         transform: scaleX(1.1); }
+      #main-area .main-area-content .acounts-area a {
+        text-decoration: none; }
       #main-area .main-area-content .acounts-area .icon {
         display: inline-block;
         margin: 0 20px;
