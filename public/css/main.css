@@ -284,13 +284,13 @@ table {
     display: none; }
   body #main-area {
     width: 450px !important;
-    height: 500px !important;
+    height: 470px !important;
     padding: 28px !important;
     border-radius: 0 150px 0 150px !important; }
     body #main-area .main-area-title {
-      margin: 0 auto 57px !important; }
+      margin: 0 auto 55px !important; }
       body #main-area .main-area-title h1 {
-        font-size: 3rem !important;
+        font-size: 2.8rem !important;
         margin-top: 0 !important;
         margin-bottom: 9px; }
       body #main-area .main-area-title .underline-accent img {
@@ -300,28 +300,28 @@ table {
       margin: 0 auto 18px !important; }
       body #main-area .main-area-content .name-heading h3 {
         letter-spacing: .5px;
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
         font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 12px; }
       body #main-area .main-area-content .name-heading h5 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
         letter-spacing: 3px;
         font-weight: 400;
         text-transform: capitalize; }
     body #main-area .main-area-content p {
-      font-size: 1.15rem !important;
+      font-size: 1.1rem !important;
       margin: 0 auto !important; }
     body #main-area .main-area-content .acounts-area {
       text-align: center;
       margin-bottom: 0 !important;
-      margin-top: 25px; }
+      margin-top: 15px; }
       body #main-area .main-area-content .acounts-area .underline-accent {
-        margin-bottom: 26px !important; }
+        margin-bottom: 22px !important; }
         body #main-area .main-area-content .acounts-area .underline-accent img {
-          width: 80px; }
+          width: 75px; }
       body #main-area .main-area-content .acounts-area h6 {
-        font-size: .87rem;
+        font-size: .8rem;
         font-weight: 500;
         letter-spacing: 5px;
         margin-bottom: 22px !important;
@@ -330,7 +330,7 @@ table {
         transform: scaleX(1.1); }
       body #main-area .main-area-content .acounts-area .icon {
         display: inline-block;
-        margin: 0 20px;
+        margin: 0 23px;
         padding: 5px;
         position: relative;
         z-index: 10; }
