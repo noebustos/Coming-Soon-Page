@@ -215,45 +215,43 @@ table {
         transform: scaleX(1.1); } }
 
 /* Phones- small */
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 570px) and (max-width: 700px) {
   .accent-img {
     right: 45px !important;
     bottom: -16px !important; }
     .accent-img img {
-      -webkit-filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.25)) !important;
-      filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.25)) !important;
       width: 98px !important;
       -webkit-transform: rotate(8deg) !important;
       transform: rotate(8deg) !important; }
   body #main-area {
     width: 500px !important;
     height: 500px !important;
-    padding: 30px !important;
-    border-radius: 0 200px 0 200px !important;
-    text-align: left !important; }
+    padding: 28px !important;
+    border-radius: 0 170px 0 170px !important; }
     body #main-area .main-area-title {
-      margin: 0 auto 67px !important; }
+      margin: 0 auto 57px !important; }
       body #main-area .main-area-title h1 {
-        font-size: 3.2rem !important;
-        margin-top: 0 !important; }
+        font-size: 3rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 9px; }
       body #main-area .main-area-title .underline-accent img {
-        width: 80px !important; }
+        width: 75px !important; }
     body #main-area .main-area-content .name-heading {
       max-width: 380px;
       margin: 0 auto 18px !important; }
       body #main-area .main-area-content .name-heading h3 {
         letter-spacing: .5px;
-        font-size: 1.55rem !important;
+        font-size: 1.5rem !important;
         font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 12px; }
       body #main-area .main-area-content .name-heading h5 {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
         letter-spacing: 3px;
         font-weight: 400;
         text-transform: capitalize; }
     body #main-area .main-area-content p {
-      font-size: 1.2rem !important;
+      font-size: 1.15rem !important;
       margin: 0 auto !important; }
     body #main-area .main-area-content .acounts-area {
       text-align: center;
@@ -261,6 +259,8 @@ table {
       margin-top: 25px; }
       body #main-area .main-area-content .acounts-area .underline-accent {
         margin-bottom: 26px !important; }
+        body #main-area .main-area-content .acounts-area .underline-accent img {
+          width: 80px; }
       body #main-area .main-area-content .acounts-area h6 {
         font-size: .87rem;
         font-weight: 500;
@@ -268,7 +268,74 @@ table {
         margin-bottom: 22px !important;
         text-transform: uppercase;
         -webkit-transform: scaleX(1.1);
-        transform: scaleX(1.1); } }
+        transform: scaleX(1.1); }
+      body #main-area .main-area-content .acounts-area .icon {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px;
+        position: relative;
+        z-index: 10; }
+        body #main-area .main-area-content .acounts-area .icon .fab {
+          font-size: 28px !important; } }
+
+/* Phones- small */
+@media only screen and (max-width: 569px) {
+  .accent-img {
+    display: none; }
+  body #main-area {
+    width: 450px !important;
+    height: 500px !important;
+    padding: 28px !important;
+    border-radius: 0 150px 0 150px !important; }
+    body #main-area .main-area-title {
+      margin: 0 auto 57px !important; }
+      body #main-area .main-area-title h1 {
+        font-size: 3rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 9px; }
+      body #main-area .main-area-title .underline-accent img {
+        width: 75px !important; }
+    body #main-area .main-area-content .name-heading {
+      max-width: 380px;
+      margin: 0 auto 18px !important; }
+      body #main-area .main-area-content .name-heading h3 {
+        letter-spacing: .5px;
+        font-size: 1.5rem !important;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 12px; }
+      body #main-area .main-area-content .name-heading h5 {
+        font-size: 1.25rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: capitalize; }
+    body #main-area .main-area-content p {
+      font-size: 1.15rem !important;
+      margin: 0 auto !important; }
+    body #main-area .main-area-content .acounts-area {
+      text-align: center;
+      margin-bottom: 0 !important;
+      margin-top: 25px; }
+      body #main-area .main-area-content .acounts-area .underline-accent {
+        margin-bottom: 26px !important; }
+        body #main-area .main-area-content .acounts-area .underline-accent img {
+          width: 80px; }
+      body #main-area .main-area-content .acounts-area h6 {
+        font-size: .87rem;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin-bottom: 22px !important;
+        text-transform: uppercase;
+        -webkit-transform: scaleX(1.1);
+        transform: scaleX(1.1); }
+      body #main-area .main-area-content .acounts-area .icon {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 5px;
+        position: relative;
+        z-index: 10; }
+        body #main-area .main-area-content .acounts-area .icon .fab {
+          font-size: 28px !important; } }
 
 * {
   -webkit-box-sizing: border-box;

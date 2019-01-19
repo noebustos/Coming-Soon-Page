@@ -238,14 +238,12 @@
 }
 
  /* Phones- small */
-@media only screen and (max-width: 700px){  
+@media only screen and (min-width: 570px) and (max-width: 700px){  
   .accent-img{
     right: 45px !important;
-    // bottom: -20px !important;
     bottom: -16px !important;
 
     img{
-      filter: drop-shadow( 0px 0px 40px rgba(0,0,0,.25)) !important;
       width: 98px !important;
       transform: rotate(8deg) !important;
     }
@@ -254,20 +252,20 @@
   body #main-area{
     width: 500px !important;
     height: 500px !important;
-    padding: 30px !important;
-    border-radius: 0 200px 0 200px !important;
-    text-align: left !important;
+    padding: 28px !important;
+    border-radius: 0 170px 0 170px !important;
 
     .main-area-title {
-      margin: 0 auto 67px !important;
+      margin: 0 auto 57px !important;
 
       h1{
-        font-size: 3.2rem !important;
+        font-size: 3rem !important;
         margin-top: 0 !important;
+        margin-bottom: 9px;
       }
 
       .underline-accent img {
-        width: 80px !important;
+        width: 75px !important;
       }
     }
 
@@ -278,14 +276,14 @@
 
         h3 {
           letter-spacing: .5px;
-          font-size: 1.55rem !important;
+          font-size: 1.5rem !important;
           font-weight: 500;
           text-transform: uppercase;
           margin-bottom: 12px;
         }
 
         h5 {
-          font-size: 1.3rem;
+          font-size: 1.25rem;
           letter-spacing: 3px;
           font-weight: 400;
           text-transform: capitalize;
@@ -293,7 +291,7 @@
       }
 
       p{
-        font-size: 1.2rem !important;
+        font-size: 1.15rem !important;
         margin: 0 auto !important;
       }
 
@@ -304,6 +302,10 @@
 
         .underline-accent {
           margin-bottom: 26px !important;
+          
+          img {
+            width: 80px;
+          }
         }
 
         h6 {
@@ -314,6 +316,109 @@
           text-transform: uppercase;
           -webkit-transform: scaleX(1.1);
           transform: scaleX(1.1);
+        }
+
+        .icon{
+          display: inline-block;
+          margin: 0 20px;
+          padding: 5px;
+          position: relative;
+          z-index: 10;
+          
+          .fab{
+            font-size: 28px !important;
+          }
+        }
+      }
+    }
+  }  
+}
+
+ /* Phones- small */
+@media only screen and (max-width: 569px){  
+  .accent-img{
+    display: none;
+  }
+
+  body #main-area{
+    width: 450px !important;
+    height: 500px !important;
+    padding: 28px !important;
+    border-radius: 0 150px 0 150px !important;
+
+    .main-area-title {
+      margin: 0 auto 57px !important;
+
+      h1{
+        font-size: 3rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 9px;
+      }
+
+      .underline-accent img {
+        width: 75px !important;
+      }
+    }
+
+    .main-area-content{      
+      .name-heading {
+        max-width: 380px;
+        margin: 0 auto 18px !important;
+
+        h3 {
+          letter-spacing: .5px;
+          font-size: 1.5rem !important;
+          font-weight: 500;
+          text-transform: uppercase;
+          margin-bottom: 12px;
+        }
+
+        h5 {
+          font-size: 1.25rem;
+          letter-spacing: 3px;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
+      }
+
+      p{
+        font-size: 1.15rem !important;
+        margin: 0 auto !important;
+      }
+
+      .acounts-area {
+        text-align: center;
+        margin-bottom: 0 !important;
+        margin-top: 25px;
+
+        .underline-accent {
+          margin-bottom: 26px !important;
+          
+          img {
+            width: 80px;
+          }
+        }
+
+        h6 {
+          font-size: .87rem;
+          font-weight: 500;
+          letter-spacing: 5px;
+          margin-bottom: 22px !important;
+          text-transform: uppercase;
+          -webkit-transform: scaleX(1.1);
+          transform: scaleX(1.1);
+        }
+
+        .icon{
+          display: inline-block;
+          margin: 0 20px;
+          padding: 5px;
+          position: relative;
+          z-index: 10;
+          
+          .fab{
+            font-size: 28px !important;
+          }
         }
       }
     }
